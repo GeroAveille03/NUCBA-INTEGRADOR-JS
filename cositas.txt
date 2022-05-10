@@ -1,0 +1,27 @@
+👉 Renderizar HTML desde JS
+👉 Utilizar Buenas prácticas de estructura del Código, Ejemplo: Módulos ES6.
+
+👉 Deberá tener al menos un formulario en que capture información para crear un componente HTML.
+👉 Deberá utilizar localStorage, para persistir datos en el sitio.
+👉 Podrán Utilizar algún framework de CSS bootstrap / Material Design / Tailwindcss
+👉 El Sitio deberá tener al menos 3 páginas (Home / Producto - Noticia / login)
+👉 Deberá tener un input para filtrar los componentes creados. (productos o noticias).
+
+
+-un eStore
+-categorías y carrito en el header
+-un banner hero
+-un carrouselgrid de productos (pueden usar bootstrap o lo que quieran)
+-el cart
+-un footer
+-mobile y desktop
+
+de JS
+-que ande el cart
+
+cositas lindas a sumar
+-algo de animaciones
+-más JS que solo el cart
+-accesibilidad
+-en el cart estaría genial botones de +, - y borrar
+-que tenga iconitos (pueden usar fontawesome)
