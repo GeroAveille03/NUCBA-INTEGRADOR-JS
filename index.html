@@ -45,24 +45,22 @@
         </ul>
       </nav>
       
-      <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-  
-        <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-        </label>
-  
-        <div class="navigation__background">&nbsp;</div>
-  
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#link__header" class="navigation__link">Home</a></li>
-                <li class="navigation__item"><a href="#link__project" class="navigation__link">Project</a></li>
-                <li class="navigation__item"><a href="#link__about" class="navigation__link">About</a></li>
-                <li class="navigation__item"><a href="#link__contact" class="navigation__link">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+      <nav class="mobile-menu">
+        <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+        <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+        <div class="mobile-menu__container">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Inicio</a></li>
+            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Productos</a></li>
+            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contacto</a></li>
+            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Login</a></li>
+            <li class="mobile-menu__item">
+              <div class="cart" id="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <span id="totalItems"></span>
+            </div><a href="#" class="mobile-menu__link"></a></li>
+        </ul>
+        </div>
+    </nav>
       <!-- <div class="dropdown">
         <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
           data-bs-toggle="dropdown" aria-expanded="false">
@@ -93,6 +91,7 @@
       <div class="principal">
         <h2>¡Bienvenido a Tienda Unión!</h2>
         <img class="backgroundCover" src="./assets/img/kappaxunion.png" alt="">
+        <img class="backgroundCoverHidden" src="./assets/img/kappa.png" alt="">
 
         <section class="products" id="products">
           <div class="product">
@@ -157,12 +156,12 @@
             <input type="email" name="mail" id="">
           </label>
 
-          <label>¿Es usted socio de Unión?
+          <label class="checkbox">¿Es usted socio de Unión?
             <input type="checkbox" name="socio" id="">
           </label>
 
           <label class="message">Mensaje:
-            <textarea name="message" id="" cols="26" rows="4"></textarea>
+            <textarea name="message" id="" cols="29" rows="5"></textarea>
           </label>
 
           <button>Enviar</button>
@@ -170,10 +169,12 @@
 
         <div class="suscribeSocial">
           <h4 class="redes">Redes Sociales</h4>
-          <a href="https://twitter.com/clubaunion" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.facebook.com/clubaunion" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/clubaunion/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com/c/ClubaunionOficial" target="_blank"><i class="fab fa-youtube"></i></a>
+          <div class="socialLinks">
+            <a href="https://twitter.com/clubaunion" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/clubaunion" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/clubaunion/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/ClubaunionOficial" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
           <h3>Hecho por &copyGero para NUCBA</h3>
         </div>
 
