@@ -319,6 +319,7 @@ main{
             @media(max-width:470px){
                 height: 300px;
                 width: 400px;
+                margin-left: 5%;
             }
             @media(max-width:420px){
                 height: 250px;
@@ -530,12 +531,12 @@ footer{
             h3{
                 font-size: 0.8em;
                 margin-left: 5%;
-                // @media(max-width:992px){
-                //     margin-left: 20%;
-                // }
-                // @media(max-width:768px){
-                //     margin-left: 28%;
-                // }
+                @media(max-width:992px){
+                    font-size: 0.8em;
+                }
+                @media(max-width:768px){
+                    font-size: 0.4em;
+                }
                 // @media(max-width:530px){
                 //     margin-left: 25%;
                 // }

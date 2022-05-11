@@ -459,6 +459,7 @@ main .principal img.backgroundCoverHidden {
   main .principal img.backgroundCoverHidden {
     height: 300px;
     width: 400px;
+    margin-left: 5%;
   }
 }
 
@@ -756,5 +757,17 @@ footer .footerContainer .suscribeSocial h4.redes {
 footer .footerContainer .suscribeSocial h3 {
   font-size: 0.8em;
   margin-left: 5%;
+}
+
+@media (max-width: 992px) {
+  footer .footerContainer .suscribeSocial h3 {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .footerContainer .suscribeSocial h3 {
+    font-size: 0.4em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
