@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -510,6 +514,7 @@ main .principal section.products .product {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0.3%;
+  margin-top: 1.2%;
   border: #ffff solid 1.8px;
   border-radius: 8px;
 }
@@ -568,6 +573,7 @@ main .principal section.cartList {
       -ms-flex-align: center;
           align-items: center;
   height: 500px;
+  margin-top: 5%;
 }
 
 main .principal section.cartList h2 {
@@ -596,7 +602,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   height: 285px;
-  margin-top: -15%;
+  margin-top: -10%;
 }
 
 footer .footerLogo {
@@ -607,7 +613,8 @@ footer .footerLogo {
 
 @media (max-width: 768px) {
   footer .footerLogo {
-    height: 200px;
+    height: 175px;
+    width: 125px;
   }
 }
 
@@ -754,20 +761,21 @@ footer .footerContainer .suscribeSocial h4.redes {
   font-size: 1em;
 }
 
-footer .footerContainer .suscribeSocial h3 {
+footer .footerContainer .suscribeSocial h3.copy {
   font-size: 0.8em;
   margin-left: 5%;
 }
 
 @media (max-width: 992px) {
-  footer .footerContainer .suscribeSocial h3 {
+  footer .footerContainer .suscribeSocial h3.copy {
     font-size: 0.8em;
   }
 }
 
 @media (max-width: 768px) {
-  footer .footerContainer .suscribeSocial h3 {
+  footer .footerContainer .suscribeSocial h3.copy {
     font-size: 0.4em;
+    margin-left: 8%;
   }
 }
 /*# sourceMappingURL=style.css.map */
