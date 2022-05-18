@@ -84,7 +84,7 @@ header{
                         font-size: 0.5em;
                         display: flex;
                         margin-top: -65%;
-                        margin-left: -8%;
+                        margin-left: -20%;
                     }
                 }
             }
@@ -384,10 +384,10 @@ main{
         section.cartList{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            // justify-content: center;
             align-items: center;
             height: 500px;
-            margin-top: 5%;
+            margin-top: 20%;
             h2{
                 margin-top: -20%;
             }

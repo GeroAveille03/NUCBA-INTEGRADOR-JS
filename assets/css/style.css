@@ -121,7 +121,7 @@ header nav ul li .cart #totalItems {
   display: -ms-flexbox;
   display: flex;
   margin-top: -65%;
-  margin-left: -8%;
+  margin-left: -20%;
 }
 
 .mobile-menu {
@@ -566,14 +566,11 @@ main .principal section.cartList {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 500px;
-  margin-top: 5%;
+  margin-top: 20%;
 }
 
 main .principal section.cartList h2 {

@@ -33,10 +33,10 @@
           <a href="#contact">
             <li>Contacto</li>
           </a>
-          <a href="">
+          <a href="#">
             <li>Login</li>
           </a>
-          <a href="#cartList">
+          <a href="#carro">
             <li>
               <div class="cart" id="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 <span id="totalItems"></span>
@@ -51,9 +51,9 @@
         <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
         <div class="mobile-menu__container">
         <ul class="mobile-menu__list">
-            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Inicio</a></li>
-            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Productos</a></li>
-            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contacto</a></li>
+            <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Inicio</a></li>
+            <li class="mobile-menu__item"><a href="#carro" class="mobile-menu__link">Productos</a></li>
+            <li class="mobile-menu__item"><a href="#contact" class="mobile-menu__link">Contacto</a></li>
             <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Login</a></li>
             <li class="mobile-menu__item">
               <div class="cart" id="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -124,10 +124,40 @@
               <button class="add" onclick="addProduct('Retro', 11500, 1)">Añadir al carrito</button>
             </article>
           </div>
+
+          <div class="product">
+            <img class="kitImg" src="./assets/img/union entrenamiento azul.png" alt="">
+            <article>
+              <h3>Entrenamiento Azul</h3>
+              <p class="description">Remera de entrenamiento Azul Marino 2022</p>
+              <span class="price">$5400</span>
+              <button class="add" onclick="addProduct('Entrenamiento Azul', 5400, 1)">Añadir al carrito</button>
+            </article>
+          </div>
+
+          <div class="product">
+            <img class="kitImg" src="./assets/img/union entrenamiento roja.png" alt="">
+            <article>
+              <h3>Entrenamiento Roja</h3>
+              <p class="description">Remera de entrenamiento Roja 2021</p>
+              <span class="price">$3600</span>
+              <button class="add" onclick="addProduct('Entrenamiento Roja', 3600, 1)">Añadir al carrito</button>
+            </article>
+          </div>
+
+          <div class="product">
+            <img class="kitImg" src="./assets/img/buzo union rojo y azul.png" alt="">
+            <article>
+              <h3>Buzo rojo y azul</h3>
+              <p class="description">Buzo cuello redondo Rojo y Azul</p>
+              <span class="price">$6000</span>
+              <button class="add" onclick="addProduct('Buzo Rojo y Azul', 6000, 1)">Añadir al carrito</button>
+            </article>
+          </div>
         </section>
 
         <section class="cartList" id="cartList">
-          <h2>Acá están tus productos!</h2>
+          <h2 id="carro">Acá están tus productos!</h2>
           <div class="cartWrapper" id="cartWrapper">
             <div class="emptyProductsMessage">
               No tenés productos seleccionados!
