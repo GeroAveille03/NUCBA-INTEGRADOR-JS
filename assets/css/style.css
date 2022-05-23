@@ -569,7 +569,6 @@ main .principal section.cartList {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 500px;
   margin-top: 20%;
 }
 
@@ -577,8 +576,14 @@ main .principal section.cartList h2 {
   margin-top: -20%;
 }
 
-main .principal section.cartList .cartWrapper .text {
-  display: none;
+main .principal section.cartList .cartWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 main .principal section.cartList .emptyProductsMessage {
@@ -599,7 +604,6 @@ footer {
   display: -ms-flexbox;
   display: flex;
   height: 285px;
-  margin-top: -10%;
 }
 
 footer .footerLogo {

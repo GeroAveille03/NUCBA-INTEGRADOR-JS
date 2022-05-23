@@ -386,15 +386,14 @@ main{
             flex-direction: column;
             // justify-content: center;
             align-items: center;
-            height: 500px;
+            // height: 500px;
             margin-top: 20%;
             h2{
                 margin-top: -20%;
             }
             .cartWrapper{
-                .text{
-                    display: none;
-                }
+                display: flex;
+                flex-direction: column;
             }
             .emptyProductsMessage{
                 font-size: 1.5em;
@@ -413,7 +412,7 @@ footer{
     border-top: 10px whitesmoke double;
     display: flex;
     height: 285px;
-    margin-top: -10%;
+    // margin-top: -10%;
     .footerLogo{
         height: 250px;
         margin-top: 8px;
