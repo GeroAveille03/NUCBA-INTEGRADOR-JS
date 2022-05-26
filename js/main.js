@@ -66,7 +66,7 @@ const addProduct = (product, price, count) => {
 
 const storedInput = JSON.parse(localStorage.getItem("cosasGuardadas"));
 
-// console.log(storedInput)
+console.log(storedInput)
 const showLocalStorage = () => {
   cartWrapper.innerHTML = storedInput.map((stored) => {
     return `
@@ -84,10 +84,9 @@ const showLocalStorage = () => {
   const localTotal = () => {
     totalProducts.innerHTML = storedInput.map((storedLocal) => {
       let priceTotalLocal = storedLocal.price * storedLocal.count;
-      console.log(priceTotalLocal);
+      // console.log(priceTotalLocal);
       let totalToNumber = Number(priceTotalLocal);
-      console.log(totalToNumber);
-      let localPrice = totalToNumber.reduce((a, b) => a + b, 0);
+      // console.log(totalToNumber);
 
       return `
       <span id="totalProducts"></span>
@@ -113,3 +112,4 @@ $(function () {
 function toggleNav() {
   $("#l-site-wrapper").toggleClass("show-nav");
 }
+

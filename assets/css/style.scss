@@ -335,6 +335,19 @@ main{
                 margin-left: 5%;
             }
         }
+        .filtro{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .form{
+                display: flex;
+                flex-direction: row;
+                font-size: 1.5em;
+                label{
+                    padding: 10px;
+                }
+            }
+        }
         section.products{
             img.kitImg{
                 height: 300px;
@@ -354,6 +367,9 @@ main{
                 margin-top: 1.2%;
                 border: $white-union solid 1.8px;
                 border-radius: 8px;
+                .delete{
+                    display: none;
+                }
             }
             h3{
                 font-size: 2em;

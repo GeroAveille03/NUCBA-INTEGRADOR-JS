@@ -482,6 +482,34 @@ main .principal img.backgroundCoverHidden {
   }
 }
 
+main .principal .filtro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .principal .filtro .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.5em;
+}
+
+main .principal .filtro .form label {
+  padding: 10px;
+}
+
 main .principal section.products {
   width: 100%;
   display: -webkit-box;
@@ -517,6 +545,10 @@ main .principal section.products .product {
   margin-top: 1.2%;
   border: #ffff solid 1.8px;
   border-radius: 8px;
+}
+
+main .principal section.products .product .delete {
+  display: none;
 }
 
 main .principal section.products h3 {
